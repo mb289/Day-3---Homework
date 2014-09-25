@@ -1,0 +1,99 @@
+
+.container {
+	padding: 1em;
+	margin: 0 0 1em 0;
+	background-color: white;
+}
+
+
+.box {
+	position: relative;
+	display: block;
+	width: 50%;
+	min-height: 336px;
+	margin: 2px auto;
+	background: linear-gradient(to bottom, rgba(109,179,242,1) 15%,rgba(84,163,238,1) 44%,rgba(54,144,240,1) 49%,rgba(54,144,240,1) 49%,rgba(30,105,222,1) 69%);
+	padding: 1em;
+	border-radius: 5px;
+}
+
+div p {
+	text-align: left;
+	color: white;
+	font-size: 30px;
+	font-family: Times;
+}
+
+.line-separator {
+	height:1px;
+	background: white;
+	border-bottom: white;
+}
+}
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid rgb(105, 175, 214);
+	margin-right: auto;
+	position: absolute;
+	left: -10px;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border-width: 5px;
+	border-style: solid;
+	background-color: rgb(12, 107, 158);
+	border-color: rgb(155, 151, 151);
+	position: absolute;
+	top: 0;
+	left: -93px;
+
+}
+
+div h5 {
+	position: absolute;
+	color: rgb(173, 160, 160);
+	top: -20px;
+	left: -140px;
+
+}
+.line {
+	width: 6px;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: -65px;
+	opacity: 0.15;
+}
+
+div h1 {
+	position: absolute;
+	color: rgb(93, 130, 165);
+	top: 8px;
+	left: -181px;
+	font-size: xx-large;
+	font-family: sans-serif;
+}
+
+div h4 {
+	position: absolute;
+	color: rgb(151, 141, 141);
+	top: -13px;
+	left: -141px;
+	font-size: smaller;
+}
+
+div h2 {
+	position: absolute;
+	color: rgb(93, 130, 165);
+	top: 8px;
+	left: -181px;
+	font-size: xx-large;
+	font-family: sans-serif;
+}
